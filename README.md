@@ -8,14 +8,14 @@ linuxfetch only works on Linux systems.
 
 linuxfetch uses the following dependencies:
 
-### Using pip
+### Using pip:
 
 ```bash
 pip install psutil
 pip install rich
 ```
 
-### For Debian-based distros or other distros that have externally-managed environments
+### For Debian-based distros or other distros that have externally-managed environments:
 ```bash
 sudo apt install python3-psutil
 sudo apt install python3-rich
