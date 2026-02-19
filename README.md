@@ -1,6 +1,6 @@
 # linuxfetch
 
-linuxfetch is a Linux CLI tool inspired by fastfetch for displaying hardware info and system information written in Python.
+linuxfetch is a Linux CLI tool inspired by fastfetch for displaying hardware information and system info written in Python.
 
 linuxfetch only works on Linux systems.
 
@@ -17,7 +17,7 @@ pip install psutil
 pip install rich
 ```
 
-### For Debian-based distros or other distros that have externally-managed environments:
+### For Debian-based distros that have externally-managed environments:
 ```bash
 sudo apt install python3-psutil
 sudo apt install python3-rich
@@ -45,7 +45,9 @@ Right now, there is no way for you to use your own logos that doesn't include yo
 For now, you can run this command in your linuxfetch folder:
 
 ```bash
+git clone https://github.com/adjsz/linuxfetch.git
+cd linuxfetch
 python3 linuxfetch.py
 ```
 
-Support for package managers like APT will be added soon.
+Support for package managers such as APT` will be added soon.
