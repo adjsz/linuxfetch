@@ -110,10 +110,10 @@ def show_logo():
 
 def show_specs():
     show_logo()
-    console.print(f"[bold red]{full_name.split('@')[0]}[/bold red]@[bold red]{full_name.split('@')[1]}[/bold red]")
+    console.print("[bold red]example[/bold red]@[bold red]debian[/bold red]")
     print('---------------')
     show_os()
-    show_hostname()
+    console.print("[bold red]Hostname:[/bold red]   debian")
     show_cpu()
     show_physical_cores()
     show_logical_cores()

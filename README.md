@@ -4,6 +4,8 @@ linuxfetch is a Linux CLI tool inspired by fastfetch for displaying hardware inf
 
 linuxfetch only works on Linux systems.
 
+![image](examples/screenshot.png)
+
 ## Dependencies
 
 linuxfetch uses the following dependencies:
@@ -27,6 +29,8 @@ As of now, linuxfetch only supports these distros:
 
 - Linux Mint
 - Debian
+- Arch Linux
+- Fedora Linux
 
 If your distro is not apart of the following, a fallback logo will be used instead, which is the generic linux logo.
 
@@ -43,3 +47,5 @@ For now, you can run this command in your linuxfetch folder:
 ```bash
 python3 linuxfetch.py
 ```
+
+Support for package managers like APT will be added soon.
