@@ -23,9 +23,9 @@ sudo apt install python3-psutil
 sudo apt install python3-rich
 ```
 
-## Supported distros
+## Supported logos
 
-As of now, linuxfetch only supports these distros:
+As of now, linuxfetch only supports these distros in terms of logos:
 
 - Linux Mint
 - Debian
@@ -33,12 +33,6 @@ As of now, linuxfetch only supports these distros:
 - Fedora Linux
 
 If your distro is not apart of the following, a fallback logo will be used instead, which is the generic linux logo.
-
-### Note:
-
-Logos are stored in .txt folders in the folders folder.
-
-Right now, there is no way for you to use your own logos that doesn't include you modifying the source code.
 
 ## Installation
 
