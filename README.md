@@ -50,4 +50,4 @@ cd linuxfetch
 python3 linuxfetch.py
 ```
 
-Support for package managers such as APT` will be added soon.
+Support for package managers such as `APT` will be added soon.
